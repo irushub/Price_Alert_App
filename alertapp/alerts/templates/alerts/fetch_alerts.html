@@ -1,0 +1,16 @@
+<!-- alerts/templates/alerts/fetch_alerts.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fetch Alerts</title>
+</head>
+<body>
+    <h1>Alerts</h1>
+    <ul>
+        {% for alert in alerts %}
+            <li>{{ alert.name }} - {{ alert.price }} - {{ alert.timestamp }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

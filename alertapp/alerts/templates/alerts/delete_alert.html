@@ -1,0 +1,16 @@
+<!-- alerts/templates/alerts/delete_alert.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Delete Alert</title>
+</head>
+<body>
+    <h1>Are you sure you want to delete this alert?</h1>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit">Yes, delete</button>
+        <a href="{% url 'fetch_alerts' %}">Cancel</a>
+    </form>
+</body>
+</html>

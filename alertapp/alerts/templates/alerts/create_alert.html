@@ -1,0 +1,16 @@
+<!-- alerts/templates/alerts/create_alert.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Alert</title>
+</head>
+<body>
+    <h1>Create a New Alert</h1>
+    <form method="post" action="{% url 'create_alert' %}">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Create Alert</button>
+    </form>
+</body>
+</html>
