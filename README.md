@@ -19,6 +19,7 @@ redis
 ## Installation
 ### 1. Clone the repository:
 ``` git clone https://github.com/irushub/alert_app```
+<br>
 ```cd alert_app```
 
 
@@ -27,12 +28,15 @@ redis
 
 ### 3. Start the Redis and Django development server:
 Start redis server
+<br>
 ```redis-server```
 
 Ping the redis server to check whether its online 
+<br>
 ```ping redis-cli```
 
 Start the Django development server
+<br>
 ```python manage.py runserver```
 
 ### 4. Start the Django CRON Job:
