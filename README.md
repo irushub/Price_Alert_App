@@ -18,8 +18,7 @@ redis
 
 ## Installation
 ### 1. Clone the repository:
-```bash
-git clone https://github.com/irushub/alert_app```
+```git clone https://github.com/irushub/alert_app```
 <br>
 ```cd alert_app```
 
