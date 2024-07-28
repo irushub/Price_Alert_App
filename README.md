@@ -18,9 +18,9 @@ redis
 
 ## Installation
 ** 1. Clone the repository:**
-```git clone https://github.com/irushub/alert_app
-cd alert_app
-```
+``` git clone https://github.com/irushub/alert_app```
+```cd alert_app```
+
 
 ** 2. Migrate the database:**
 ```python manage.py migrate```
