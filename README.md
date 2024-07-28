@@ -17,15 +17,15 @@ django-cron
 redis
 
 ## Installation
-** 1. Clone the repository:**
+### 1. Clone the repository:
 ``` git clone https://github.com/irushub/alert_app```
 ```cd alert_app```
 
 
-** 2. Migrate the database:**
+### 2. Migrate the database:
 ```python manage.py migrate```
 
-** 3. Start the Redis and Django development server:**
+### 3. Start the Redis and Django development server:
 Start redis server
 ```redis-server```
 
@@ -35,5 +35,5 @@ Ping the redis server to check whether its online
 Start the Django development server
 ```python manage.py runserver```
 
-** 4. Start the Django CRON Job:**
+### 4. Start the Django CRON Job:
 ```python manage.py runcrons```
